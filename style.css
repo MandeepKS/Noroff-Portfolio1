@@ -1,0 +1,86 @@
+body{
+    font-family: 'Arial',sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin:10px 0;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project-card{
+    width: 300px;
+    margin:20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: all ease-in 0.5s;
+}
+
+.project-card:hover{
+    border: 1px solid #333;
+    transition: all ease-out 0.5s;
+}
+
+img {
+    max-width: 100%;
+    min-height: 132.2px;
+    border-radius: 5px;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+}
+.git-live-project{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+a{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 4px;
+    transition: all ease-in 0.5s;
+}
+a:hover{
+    background-color: #ddd;
+    color: black;
+    transition: all ease-out 0.5s;
+}
+
+section{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    bottom:0;
+    width:100%;
+}
